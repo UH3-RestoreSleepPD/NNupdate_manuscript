@@ -44,6 +44,6 @@ xtickSS = xticks();
 xtickLABBs = round(xtickSS/2/60,1);
 xticklabels(xtickLABBs)
 xlabel('Time (hours)')
-ax = gca;exportgraphics(ax,'text.pdf','Resolution',600)
+
 
 
